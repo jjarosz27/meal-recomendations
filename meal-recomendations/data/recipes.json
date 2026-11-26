@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Kanapka z serem",
+        "ingredients": [
+            "2 kromki chleba",
+            "30 g sera żółtego",
+            "10 g masła"
+        ],
+        "hidden_ingredients": [
+            "chleb",
+            "ser żółty",
+            "masło"
+        ],
+        "steps": [
+            "Posmaruj chleb masłem.",
+            "Połóż ser na jednej kromce.",
+            "Przykryj drugą kromką."
+        ]
+    },
+    {
+        "title": "Makaron z kurczakiem",
+        "ingredients": [
+            "100 g makaronu",
+            "150 g kurczaka",
+            "50 g śmietany"
+        ],
+        "hidden_ingredients": [
+            "makaron",
+            "kurczak",
+            "śmietana"
+        ],
+        "steps": [
+            "Ugotuj makaron.",
+            "Pokrój kurczaka.",
+            "Usmaż kurczaka.",
+            "Dodaj śmietanę i wymieszaj."
+        ]
+    }
+]

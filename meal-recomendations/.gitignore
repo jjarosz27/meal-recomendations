@@ -1,0 +1,7 @@
+# deps
+node_modules/
+
+# zmienne środowiskowe
+.env
+.env.*
+!.env.example

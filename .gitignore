@@ -1,2 +1,19 @@
-# deps
+# zależności
 node_modules/
+
+# zmienne środowiskowe
+.env
+.env.*
+!.env.example
+
+# SQLite WAL
+*.sqlite-shm
+*.sqlite-wal
+
+# Android
+**/debug.keystore
+
+# Pliki generowane przez Android / Gradle
+**/.gradle/
+**/.cxx/
+**/build/

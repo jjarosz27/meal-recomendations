@@ -1,0 +1,11 @@
+Otrzymujesz listę składników zapisanych w nawiasie kwadratowym.
+Wykorzystując je i dokładnie je (bez dodawania jakichkolwiek innych skladnikow, ani pomijania jakichkolwiek, jako priorytet; jeżeli nie da się złożyć niczego sensownego z wszystkich, możesz nie używać wszystkich) musisz napisać mi przepisy na dania - jedzenie bądź napoje (np. smoothie).
+Ile dasz radę - maksymalnie 10.
+Wyslij przepisy jako liste obiektow json, gdzie w obiekcie jako atrybuty bedą DOKŁADNIE słowa: "tytuł", "składniki", "składniki proste" i "kroki". 
+Pamiętaj, by zawsze podawać ilość składników - na jedną porcję. Ilości podawaj zarówno w składnikach, jak i w liście kroków (jeżeli nie jest naraz wykorzystywana całość).
+Składniki bez gramatur - same nazwy (np. chleb) mają być w "składniki proste" - dokładnie w takiej samej kolejności, jak ich odpowiedniki w "składniki".
+Jesli nie da sie z podanych skladników dosłownie nic zrobić, wyslij liste z jednym obiektem json, w ktorego tytule napiszesz "Błąd".
+Nie kombinuj za dużo - jeżeli jedyne pomysły są bezsensowne, jak napicie sie mleka i zagryzienie chlebem, to lepiej uznaj to za błąd.
+Obecność na liście składnika nienadającego się do przepisu spożywczego pomijaj, ale, jeśli z pozostałych składników da się coś sensownego uzyskać, to nie wysyłaj błędu przez obecność tamtych innych - po prostu ich nie wykorzystuj.
+Przepisy powinny być szczegółowe, jeśli to jest skomplikowany przepis - jak makaron z sosem, powiedz ile wody gotować, jak długo gotować, itd.
+Może być dużo kroków - ważne, aby było szczegółowo.
